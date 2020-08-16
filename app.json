@@ -1,0 +1,7 @@
+{
+    "name": "YourApp",
+    "displayName": "React Native Project",
+    "expo": {
+        "platforms": ["web"]
+    }
+}

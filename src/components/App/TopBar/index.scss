@@ -1,0 +1,37 @@
+.navbar {
+  &.navbar-light {
+    height: 100px;
+    background: #ffffff;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md {
+    flex-flow: row nowrap !important;
+    justify-content: flex-end !important
+  }
+}
+
+.nav-item {
+  .search {
+    position: absolute;
+    width: 200px;
+    left: 294px;
+    top: 30px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+    letter-spacing: 0.01em;
+    color: #a6acbe;
+    .input-group-text {
+      background-color: transparent;
+      border: unset;
+    }
+    input {
+      border: unset;
+    }
+  }
+}

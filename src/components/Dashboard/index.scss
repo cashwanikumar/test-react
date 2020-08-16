@@ -1,0 +1,27 @@
+.dashboard-conatiner {
+  display: flex;
+  flex-direction: column;
+  .first-level {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;;
+  }
+  .second-level {
+    display: flex;
+    // justify-content: space-between;
+    min-width: 48%;
+  }
+  .second-left-level {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .second-right-level {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-left-level-metric {
+    display: flex;
+    justify-content: space-between;
+  }
+}

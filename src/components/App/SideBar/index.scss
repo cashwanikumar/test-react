@@ -1,0 +1,57 @@
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  overflow: auto;
+  z-index: 1;
+  .sidenav {
+    height: 100%;
+    // position: absolute;
+    // overflow-x: hidden;
+    // width: 100px;
+    // left: 0px;
+    // top: 0px;
+    // bottom: 0;
+    background: #373b53;
+    .top-logo {
+      width: 100px;
+      height: 100px;
+      left: 0px;
+      top: 0px;
+      background: #6f52ed;
+      span {
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+        color: white;
+        font-weight: bold;
+      }
+    }
+    .menu-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+      .menu {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 40px;
+        svg {
+          color: #969cba !important;
+        }
+        .active {
+          padding: 15px;
+          background: #ffffff;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+          border-radius: 10px;
+          svg {
+            color: #7266ed !important;
+          }
+        }
+      }
+    }
+  }
+}
